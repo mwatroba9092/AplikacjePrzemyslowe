@@ -1,7 +1,6 @@
 package pl.edu.ug.cmms;
 
 import java.time.LocalDate;
-import java.util.jar.Attributes.Name;
 
 public record Machine(
     String id,
