@@ -41,3 +41,13 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+layout.buildDirectory.set(rootProject.layout.buildDirectory)
+
+tasks.named('jar') {
+    archiveFileName.set('cmms.jar')
+
+    manifest {
+        attributes('Main-Class': application.mainClass.get())
+    }
+}

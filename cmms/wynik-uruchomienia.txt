@@ -1,0 +1,37 @@
+Reusing configuration cache.
+> Task :app:processTestResources NO-SOURCE
+> Task :app:processResources NO-SOURCE
+> Task :app:compileJava UP-TO-DATE
+> Task :app:classes UP-TO-DATE
+> Task :app:compileTestJava UP-TO-DATE
+> Task :app:testClasses UP-TO-DATE
+> Task :app:jar UP-TO-DATE
+> Task :app:startScripts UP-TO-DATE
+> Task :app:distTar UP-TO-DATE
+> Task :app:distZip UP-TO-DATE
+> Task :app:test UP-TO-DATE
+> Task :app:assemble UP-TO-DATE
+> Task :app:check UP-TO-DATE
+> Task :app:build UP-TO-DATE
+
+BUILD SUCCESSFUL in 605ms
+7 actionable tasks: 7 up-to-date
+Configuration cache entry reused.
+Liczba maszyn: 9
+Liczba zlecen serwisowych: 45
+
+Niezakonczone zlecnia wedlug priorytetu:
+CRITICAL: 0
+HIGH: 3
+NORMAL: 1
+LOW: 1
+
+Trzy maszyny z najwieksza liczba awarii:
+M-04 (5)
+M-08 (4)
+M-05 (3)
+
+MTTR hal:
+Hala A: 13 h 51 min
+Hala B: 13 h 6 min
+Hala C: 16 h 45 min

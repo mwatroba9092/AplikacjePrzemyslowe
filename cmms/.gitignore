@@ -1,5 +1,12 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Pamięć podręczna Gradle
+**/.gradle/
 
-# Ignore Gradle build output directory
-build
+# Wyniki budowania, w tym wygenerowane pliki JAR
+**/build/
+
+# Pliki kompilowane poza katalogiem build
+*.class
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
