@@ -17,7 +17,7 @@ public record Machine(
             );
         }
 
-        if (name == null || id.isBlank()) {
+        if (name == null || name.isBlank()) {
             throw new IllegalArgumentException(
                 "Nazwa maszyny nie moze byc pusta"
             );
@@ -29,7 +29,7 @@ public record Machine(
             );
         }
 
-        if (hall == null || id.isBlank()) {
+        if (hall == null || hall.isBlank()) {
             throw new IllegalArgumentException(
                 "Hala maszyny nie moze byc pusta"
             );

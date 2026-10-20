@@ -19,7 +19,7 @@ public record WorkOrder(
             );
         }
 
-        if (machineId == null || id.isBlank()) {
+        if (machineId == null || machineId.isBlank()) {
             throw new IllegalArgumentException(
                 "Id maszyny nie moze byc puste"
             );
